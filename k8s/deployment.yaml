@@ -16,7 +16,7 @@ spec:
         - name: service-registry
           image: alllenwu1/service-registry:latest
           ports:
-            - containerPort: 8087
+            - containerPort: 8761
           resources:
             requests:
               cpu: "200m"
